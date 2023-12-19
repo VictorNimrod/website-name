@@ -1,0 +1,157 @@
+<style>
+  p{
+    font-family: arial;
+  }
+  .uber{
+    margin-bottom: 20px;
+  }
+  .uber:hover{
+cursor: progress;  
+text-shadow: red;  
+  }
+  .request{
+    background-color: black;
+    color:white;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    font-family: arial;
+    font-size: small;
+  }
+  .cart{
+    background-color: rgb(255,216,20);
+    color:black;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    text-align: center;
+    }
+    .signup{
+      background-color: rgb(46,164,79);
+      color: white;
+      font-size: bold;
+      border: none;
+      width: 110px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: medium;
+      font-weight: bold;
+    }
+    .get-started{
+      background-color: rgb(121,82,179) ;
+      color:white;
+      text-align: center;
+      font-size: medium;
+      font-weight: bold;
+      height: 40px;
+      width: 120px;
+      border-radius: 5px;
+      border: none;
+    }
+    .download{
+      background-color: white;
+      color: rgb(108,117,125);
+      font-weight: bold;
+      font-size:medium;
+      text-align: center;
+      height: 40px;
+      width: 110px;
+      border-radius: 5px;
+      border-color: rgb(108,117,125);
+      border-width: 1px;
+      margin-left: 20px;
+    }
+    .download:hover{
+      cursor: progress;
+      transform: scale(1.5);
+    }
+    .apply{
+      background-color: rgb(10,102,194);
+      color: white;
+      padding-left:27px;
+      padding-right: 27px;
+      border-radius: 50px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: medium;
+      text-align: center;
+      border: none;
+      font-weight: bold;
+    }
+
+    .apply:hover{
+      cursor: pointer;
+      box-shadow: 30px 20px 10px greenyellow;
+    }
+    .save{
+      background-color: white;
+      color: rgb(10,102,194);
+      border-radius: 20px;
+      padding-right: 25px;
+      padding-left: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-width: thin;
+      text-align: center;
+      border-color: rgb(10,102,194);
+      font-weight: bold;
+      margin-left: 20px;
+      transition: 1s;
+    }
+    .save:hover{
+      color: white;
+      background-color: rgb(10,102,194);
+      cursor: pointer;
+    }
+    .save:active{
+      opacity: 0.8;
+    }
+    .SUBS{
+      background-color:red;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border:none;
+      border-radius: 10px;
+    font-weight: bold;
+      }
+  .sub-text{
+    color: white;
+    text-decoration-line: none;
+  }
+.text{
+  border-radius: 10px;
+  text-align:center ;
+  border-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}    
+</style>
+<p class="UBER">UBER</p>
+<buttons class="Request">
+  Request Now
+</buttons>
+
+<p>Amazon</p>
+<button class="cart">Add to cart</button>
+<p>Github</p>
+<button class="signup">Sign Up</button>
+<p>Bootstrap</p>
+<button class="get-started">Get started</button> <button class="download">Download</button>
+<p>LinkedIn</p>
+<button class="Apply">Apply on company Website</button> <button class="Save">Save</button>
+
+<button class="subs"><a href="Http://www.youtube.com/" target="_blank"
+   class="sub-text">SUBSCRIBE</a></button>
+
+  <p>
+    search </p>
+  <input class="text" type="text" placeholder="text">
+
+<img src=".vscode" alt="">
